@@ -1,0 +1,115 @@
+﻿.workout-screen {
+	padding: 1rem;
+	background: #F4F9FB;
+	display: flex;
+	flex-direction: column;
+}
+
+.workout-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 1.5rem;
+	color: #006699;
+}
+
+.workout-progress {
+	background: #008bcc;
+	color: white;
+	padding: 0.3rem 0.8rem;
+	border-radius: 20px;
+	font-size: 0.9rem;
+}
+
+.comparison-chart {
+	background: white;
+	border-radius: 10px;
+	padding: 1rem;
+	margin-bottom: 1.5rem;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.chart-legend {
+	display: flex;
+	justify-content: center;
+	gap: 1.5rem;
+	margin-bottom: 0.5rem;
+	font-size: 0.8rem;
+}
+
+.planned::before, .actual::before {
+	content: "";
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin-right: 0.3rem;
+	border-radius: 2px;
+}
+
+.planned::before {
+	background: #008bcc;
+}
+
+.actual::before {
+	background: #00cc66;
+}
+
+.chart-area {
+	height: 150px;
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+	margin: 1rem 0;
+}
+
+.chart-line {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 2px;
+}
+
+.planned {
+	background: #008bcc;
+	top: 30%;
+}
+
+.actual {
+	background: #00cc66;
+	top: 50%;
+}
+
+.chart-xaxis {
+	text-align: center;
+	color: #666;
+	font-size: 0.7rem;
+}
+
+.metric-comparison {
+	font-size: 0.7rem;
+	margin-top: 0.3rem;
+	font-weight: 600;
+}
+
+.good {
+	color: #00cc66;
+}
+
+.neutral {
+	color: #666;
+}
+
+.bad {
+	color: #ff5722;
+}
+
+.complete-button {
+	margin-top: auto;
+	background: #006699;
+	color: white;
+	border: none;
+	padding: 1rem;
+	border-radius: 8px;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}

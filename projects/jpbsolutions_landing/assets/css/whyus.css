@@ -1,0 +1,685 @@
+/* Start Of WHY US */
+
+.whyus-container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.whyus-intro {
+    padding: 20px;
+}
+
+.whyus-text {
+    text-align: left;
+}
+
+@media (min-width: 1200px) {
+    .whyus-section {
+        background-image: none;
+    }
+
+    .whyus-container {
+        min-height: 1166px;
+    }
+
+    .whyus-content {
+        margin-top: 45px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .u-block-afbc-8 {
+        min-height: 358px;
+    }
+
+    .u-block-afbc-9 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .u-block-afbc-10 {
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .u-block-afbc-11 {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .u-block-afbc-22 {
+        min-height: 358px;
+    }
+
+    .u-block-afbc-23 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .u-block-afbc-24 {
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .u-block-afbc-25 {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .u-block-afbc-20 {
+        min-height: 716px;
+        background-image: url("/projects/jpbsolutions_landing/assets/images/whyus.png");
+        background-position: 50% 50%;
+    }
+
+    .u-block-afbc-21 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .u-block-afbc-30 {
+        min-height: 358px;
+    }
+
+    .u-block-afbc-31 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .u-block-afbc-32 {
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .u-block-afbc-33 {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .u-block-afbc-34 {
+        min-height: 358px;
+    }
+
+    .u-block-afbc-35 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .u-block-afbc-36 {
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .u-block-afbc-37 {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+}
+
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .whyus-section {
+        background-image: none;
+    }
+
+    .whyus-container {
+        min-height: 1336px;
+    }
+
+    .whyus-content {
+        margin-top: 45px;
+    }
+
+    .u-block-afbc-8 {
+        min-height: 295px;
+    }
+
+    .u-block-afbc-9 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .u-block-afbc-10 {
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: 0;
+        font-size: 1.5rem;
+    }
+
+    .u-block-afbc-11 {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .u-block-afbc-22 {
+        min-height: 295px;
+    }
+
+    .u-block-afbc-23 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .u-block-afbc-24 {
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .u-block-afbc-25 {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .u-block-afbc-20 {
+        background-image: url("/projects/jpbsolutions_landing/assets/images/whyus.png");
+        min-height: 590px;
+        background-position: 43.81% 50%;
+        --radius: 5px;
+    }
+
+    .u-block-afbc-21 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .u-block-afbc-30 {
+        min-height: 295px;
+    }
+
+    .u-block-afbc-31 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .u-block-afbc-32 {
+        font-size: 1.5rem;
+        width: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .u-block-afbc-33 {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .u-block-afbc-34 {
+        min-height: 295px;
+    }
+
+    .u-block-afbc-35 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .u-block-afbc-36 {
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .u-block-afbc-37 {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .whyus-section {
+        background-image: none;
+    }
+
+    .whyus-container {
+        min-height: 1301px;
+    }
+
+    .whyus-content {
+        margin-top: 45px;
+    }
+
+    .u-block-afbc-8 {
+        min-height: 100px;
+    }
+
+    .u-block-afbc-9 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .u-block-afbc-10 {
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: 0;
+        font-size: 1.5rem;
+    }
+
+    .u-block-afbc-11 {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .u-block-afbc-22 {
+        min-height: 100px;
+    }
+
+    .u-block-afbc-23 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .u-block-afbc-24 {
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .u-block-afbc-25 {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .u-block-afbc-20 {
+        background-image: url("/projects/jpbsolutions_landing/assets/images/whyus.png");
+        min-height: 678px;
+        background-position: 43.81% 50%;
+        --radius: 5px;
+    }
+
+    .u-block-afbc-21 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .u-block-afbc-30 {
+        min-height: 100px;
+    }
+
+    .u-block-afbc-31 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .u-block-afbc-32 {
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        width: auto;
+    }
+
+    .u-block-afbc-33 {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .u-block-afbc-34 {
+        min-height: 100px;
+    }
+
+    .u-block-afbc-35 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .u-block-afbc-36 {
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .u-block-afbc-37 {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+}
+
+
+@media (max-width: 767px) and (min-width: 576px) {
+    .whyus-section {
+        background-image: none;
+    }
+
+    .whyus-container {
+        min-height: 1526px;
+    }
+
+    .whyus-content {
+        margin-top: 45px;
+    }
+
+    .u-block-afbc-8 {
+        min-height: 100px;
+    }
+
+    .u-block-afbc-9 {
+        padding-top: 30px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        padding-left: 0;
+    }
+
+    .u-block-afbc-10 {
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: 0;
+        font-size: 1.5rem;
+    }
+
+    .u-block-afbc-11 {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .u-block-afbc-22 {
+        min-height: 100px;
+    }
+
+    .u-block-afbc-23 {
+        padding-top: 30px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        padding-left: 0;
+    }
+
+    .u-block-afbc-24 {
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .u-block-afbc-25 {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .u-block-afbc-20 {
+        background-image: url("/projects/jpbsolutions_landing/assets/images/whyus.png");
+        min-height: 1017px;
+        background-position: 43.81% 50%;
+        --radius: 5px;
+    }
+
+    .u-block-afbc-21 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .u-block-afbc-30 {
+        min-height: 100px;
+    }
+
+    .u-block-afbc-31 {
+        padding-top: 30px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        padding-left: 0;
+    }
+
+    .u-block-afbc-32 {
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        width: auto;
+    }
+
+    .u-block-afbc-33 {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .u-block-afbc-34 {
+        min-height: 100px;
+    }
+
+    .u-block-afbc-35 {
+        padding-top: 30px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        padding-left: 0;
+    }
+
+    .u-block-afbc-36 {
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .u-block-afbc-37 {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .whyus-section {
+        background-image: none;
+    }
+
+    .whyus-container {
+        min-height: 1956px;
+    }
+
+    .whyus-content {
+        margin-top: 45px;
+    }
+
+    .u-block-afbc-8 {
+        min-height: 100px;
+    }
+
+    .u-block-afbc-9 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 0;
+        padding-right: 10px;
+    }
+
+    .u-block-afbc-10 {
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: 0;
+        font-size: 1.5rem;
+    }
+
+    .u-block-afbc-11 {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .u-block-afbc-22 {
+        min-height: 100px;
+    }
+
+    .u-block-afbc-23 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 0;
+        padding-right: 10px;
+    }
+
+    .u-block-afbc-24 {
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .u-block-afbc-25 {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .u-block-afbc-20 {
+        background-image: url("/projects/jpbsolutions_landing/assets/images/whyus.png");
+        min-height: 640px;
+        background-position: 43.81% 50%;
+        --radius: 5px;
+    }
+
+    .u-block-afbc-21 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .u-block-afbc-30 {
+        min-height: 100px;
+    }
+
+    .u-block-afbc-31 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 0;
+        padding-right: 10px;
+    }
+
+    .u-block-afbc-32 {
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        width: auto;
+    }
+
+    .u-block-afbc-33 {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .u-block-afbc-34 {
+        min-height: 100px;
+    }
+
+    .u-block-afbc-35 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 0;
+        padding-right: 10px;
+    }
+
+    .u-block-afbc-36 {
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .u-block-afbc-37 {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+}
+
+/* End Of WHY US */

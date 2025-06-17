@@ -1,0 +1,32 @@
+/* Start Of GLOBAL */
+:root {
+    --blue: #0042a4ff;
+    --light-blue: #005aadff;
+    --gray: #414046ff;
+    --light-gray: #6b6c72ff;
+    --white: #ffffffff;
+    --black: #000000ff;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Pirulen';
+    src: url("/assets/fonts/pirulen-rg.otf") format("opentype");
+}
+
+section h3 {
+    font-family: 'Pirulen', sans-serif;
+    font-weight: bolder;
+    font-size: 36px;
+    margin-top: 60px;
+}
+
+section h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: none;
+}
+
+/* End Of GLOBAL */
+

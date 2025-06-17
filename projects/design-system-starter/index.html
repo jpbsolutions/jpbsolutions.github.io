@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design System Starter - All Components</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Fixed Header Wrapper -->
+    <div class="fixed header-wrapper">
+        <div class="container">
+            <header class="mt-4">
+                <h1 class="text-center">Design System Starter</h1>
+                <p class="text-center text-muted">All HTML components styled</p>
+            </header>
+
+            <nav class="nav mt-4">
+                <a href="#colors" class="nav-link">Colors</a>
+                <a href="#typography" class="nav-link">Typography</a>
+                <a href="#buttons" class="nav-link">Buttons</a>
+                <a href="#forms" class="nav-link">Forms</a>
+                <a href="#tables" class="nav-link">Tables</a>
+                <a href="#lists" class="nav-link">Lists</a>
+                <a href="#other" class="nav-link">Other</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content container">
+        <!-- Colors Section -->
+        <section id="colors" class="mt-4">
+            <h2>Colors</h2>
+            <div class="card mt-2">
+                <div class="card-header">Color Palette</div>
+                <div class="card-body grid grid-cols-2 sm:grid-cols-4 gap-3">
+                    <!-- Primary -->
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-md bg-primary"></div>
+                        <div>
+                            <div class="font-medium">Primary</div>
+                            <div class="text-sm text-muted">#2563eb</div>
+                        </div>
+                    </div>
+
+                    <!-- Secondary -->
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-md bg-secondary"></div>
+                        <div>
+                            <div class="font-medium">Secondary</div>
+                            <div class="text-sm text-muted">#7c3aed</div>
+                        </div>
+                    </div>
+
+                    <!-- Success -->
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-md bg-success"></div>
+                        <div>
+                            <div class="font-medium">Success</div>
+                            <div class="text-sm text-muted">#10b981</div>
+                        </div>
+                    </div>
+
+                    <!-- Danger -->
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-md bg-danger"></div>
+                        <div>
+                            <div class="font-medium">Danger</div>
+                            <div class="text-sm text-muted">#ef4444</div>
+                        </div>
+                    </div>
+
+                    <!-- Warning -->
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-md bg-warning"></div>
+                        <div>
+                            <div class="font-medium">Warning</div>
+                            <div class="text-sm text-muted">#f59e0b</div>
+                        </div>
+                    </div>
+
+                    <!-- Info -->
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-md bg-info"></div>
+                        <div>
+                            <div class="font-medium">Info</div>
+                            <div class="text-sm text-muted">#3b82f6</div>
+                        </div>
+                    </div>
+
+                    <!-- Light -->
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-md bg-bg-alt border border-border"></div>
+                        <div>
+                            <div class="font-medium">Light</div>
+                            <div class="text-sm text-muted">#f9fafb</div>
+                        </div>
+                    </div>
+
+                    <!-- Dark -->
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-md bg-text"></div>
+                        <div>
+                            <div class="font-medium">Dark</div>
+                            <div class="text-sm text-muted">#1f2937</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Typography Section -->
+        <section id="typography" class="mt-4">
+            <h2>Typography</h2>
+
+            <div class="card mt-2">
+                <div class="card-header">Headings</div>
+                <h1>Heading 1</h1>
+                <h2>Heading 2</h2>
+                <h3>Heading 3</h3>
+                <h4>Heading 4</h4>
+                <h5>Heading 5</h5>
+                <h6>Heading 6</h6>
+            </div>
+
+            <div class="card mt-3">
+                <div class="card-header">Paragraphs and Links</div>
+                <p>This is a regular paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
+                    dui mauris.</p>
+                <p>Another paragraph with a <a href="#">link example</a> to demonstrate how links look in context.
+                </p>
+                <p class="text-muted">This is muted text using the utility class.</p>
+            </div>
+
+            <div class="card mt-3">
+                <div class="card-header">Blockquote</div>
+                <blockquote>
+                    This is a blockquote. It represents content quoted from another source.
+                </blockquote>
+            </div>
+
+            <div class="card mt-3">
+                <div class="card-header">Code</div>
+                <p>Inline <code>code</code> example.</p>
+                <pre><code>// Code block example
+function helloWorld() {
+    console.log('Hello, world!');
+}
+</code></pre>
+            </div>
+        </section>
+
+        <!-- Buttons Section -->
+        <section id="buttons" class="mt-6">
+            <h2>Buttons</h2>
+
+            <div class="card mt-2">
+                <div class="card-header">Button Styles</div>
+                <div class="flex gap-3">
+                    <button class="btn btn-primary">Primary</button>
+                    <button class="btn btn-danger">Danger</button>
+                    <button class="btn btn-outline">Outline</button>
+                    <button class="btn btn-primary-outline">Primary Outline</button>
+                    <button class="btn btn-danger-outline">Danger Outline</button>
+                    <button disabled class="btn btn-disabled">Disabled</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Forms Section -->
+        <section id="forms" class="mt-6">
+            <h2>Forms</h2>
+
+            <div class="card mt-2">
+                <div class="card-header">Text Inputs</div>
+                <form>
+                    <div>
+                        <label for="text-input">Text Input</label>
+                        <input type="text" id="text-input" placeholder="Enter some text">
+                    </div>
+
+                    <div>
+                        <label for="email-input">Email Input</label>
+                        <input type="email" id="email-input" placeholder="Enter your email">
+                    </div>
+
+                    <div>
+                        <label for="password-input">Password Input</label>
+                        <input type="password" id="password-input" placeholder="Enter your password">
+                    </div>
+
+                    <div>
+                        <label for="textarea">Textarea</label>
+                        <textarea id="textarea" placeholder="Enter multiline text"></textarea>
+                    </div>
+                </form>
+            </div>
+
+            <div class="card mt-3">
+                <div class="card-header">Select and Options</div>
+                <form>
+                    <div>
+                        <label for="select">Select Dropdown</label>
+                        <select id="select">
+                            <option value="">Choose an option</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+
+            <div class="card mt-3">
+                <div class="card-header">Checkboxes and Radios</div>
+                <form>
+                    <fieldset>
+                        <legend>Checkbox Group</legend>
+                        <div>
+                            <input type="checkbox" id="checkbox1" name="checkbox-group">
+                            <label for="checkbox1">Checkbox 1</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="checkbox2" name="checkbox-group">
+                            <label for="checkbox2">Checkbox 2</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="checkbox3" name="checkbox-group">
+                            <label for="checkbox3">Checkbox 3</label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Radio Group</legend>
+                        <div>
+                            <input type="radio" id="radio1" name="radio-group">
+                            <label for="radio1">Radio 1</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="radio2" name="radio-group">
+                            <label for="radio2">Radio 2</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="radio3" name="radio-group">
+                            <label for="radio3">Radio 3</label>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+
+            <div class="card mt-3">
+                <div class="card-header">Form Buttons</div>
+                <form>
+                    <div class="flex gap-3">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="reset" class="btn btn-outline">Reset</button>
+                        <button type="button" class="btn btn-danger">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Tables Section -->
+        <section id="tables" class="mt-6">
+            <h2>Tables</h2>
+
+            <div class="card mt-2">
+                <div class="card-header">Basic Table</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Role</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>john@example.com</td>
+                            <td>Admin</td>
+                        </tr>
+                        <tr>
+                            <td>Jane Smith</td>
+                            <td>jane@example.com</td>
+                            <td>Editor</td>
+                        </tr>
+                        <tr>
+                            <td>Bob Johnson</td>
+                            <td>bob@example.com</td>
+                            <td>Viewer</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Lists Section -->
+        <section id="lists" class="mt-6">
+            <h2>Lists</h2>
+
+            <div class="grid grid-cols-2 gap-3 mt-2">
+                <div class="card">
+                    <div class="card-header">Unordered List</div>
+                    <ul>
+                        <li>List item 1</li>
+                        <li>List item 2</li>
+                        <li>List item 3
+                            <ul>
+                                <li>Nested item 1</li>
+                                <li>Nested item 2</li>
+                            </ul>
+                        </li>
+                        <li>List item 4</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">Ordered List</div>
+                    <ol>
+                        <li>First item</li>
+                        <li>Second item</li>
+                        <li>Third item
+                            <ol>
+                                <li>Nested item 1</li>
+                                <li>Nested item 2</li>
+                            </ol>
+                        </li>
+                        <li>Fourth item</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <!-- Other Components Section -->
+        <section id="other" class="mt-6">
+            <h2>Other Components</h2>
+
+            <div class="card mt-2">
+                <div class="card-header">Horizontal Rule</div>
+                <p>Content above the horizontal rule.</p>
+                <hr>
+                <p>Content below the horizontal rule.</p>
+            </div>
+
+            <div class="card mt-3">
+                <div class="card-header">Images</div>
+                <figure>
+                    <img src="https://images.pexels.com/photos/31112529/pexels-photo-31112529/free-photo-of-colorful-umbrellas-on-deauville-beach-normandie.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&dpr=1" alt="Placeholder image">
+                    <figcaption>Example of an image with caption</figcaption>
+                </figure>
+            </div>
+
+            <div class="card mt-3">
+                <div class="card-header">Progress</div>
+                <label for="progress">Example progress bar:</label>
+                <progress id="progress" value="65" max="100">65%</progress>
+            </div>
+
+            <div class="card mt-3">
+                <div class="card-header">Alerts</div>
+                <div class="alert alert-success">
+                    This is a success alert!
+                </div>
+                <div class="alert alert-warning">
+                    This is a warning alert!
+                </div>
+                <div class="alert alert-danger">
+                    This is a danger alert!
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="mt-6 text-center">
+        <p>Design System Starter Pack - All HTML Components</p>
+    </footer>
+
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
